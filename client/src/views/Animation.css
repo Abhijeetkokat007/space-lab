@@ -1,0 +1,453 @@
+.body {
+  background: rgb(0, 0, 0);
+}
+
+.lol1 {
+  width: 650px;
+  height: 650px;
+  border: 2px solid #101ee5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  animation: mymove 20s infinite;
+  animation-direction: alternate;
+  box-shadow: 0px 0px 1px 1px #152c92;
+}
+
+.lol2 {
+  width: 650px;
+  height: 650px;
+  border: 2px solid rgb(16, 30, 229);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  animation: mymove1 20s infinite;
+  animation-direction: alternate;
+  box-shadow: 0px 0px 1px 1px #152c92;
+}
+
+.circleout {
+  width: 20px;
+  height: 20px;
+  background: rgb(4, 9, 99);
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 0px 10px #0736b6, 0px 0px 0px 18px #061298;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: cicleout 20s linear infinite;
+  animation: circleout 20s linear infinite;
+}
+
+.circletext {
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: circletext 20s linear infinite;
+  animation: circletext 20s linear infinite;
+}
+
+.circleout1 {
+  width: 20px;
+  height: 20px;
+  background: rgb(4, 9, 99);
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 0px 10px #0736b6, 0px 0px 0px 18px #061298;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: cicleout1 20s linear infinite;
+  animation: circleout1 20s linear infinite;
+  opacity: 1;
+}
+
+.circleout2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: cicleout1 20s linear infinite;
+  animation: circleout1 20s linear infinite;
+  opacity: 1;
+}
+
+.circletext1 {
+  width: 120px;
+  height: 80px;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: circletext1 20s linear infinite;
+  animation: circletext1 20s linear infinite;
+  opacity: 1;
+}
+
+.circletext2 {
+  width: 120px;
+  height: 80px;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: circletext1 20s linear infinite;
+  animation: circletext1 20s linear infinite;
+  opacity: 1;
+}
+
+.imageshadow {
+  box-shadow: 0px 0px 2000px 80px #152c92;
+}
+
+@-webkit-keyframes circleout {
+  0% {
+    transform: rotate(0deg) translate(-320px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-320px) rotate(-360deg);
+  }
+}
+
+@keyframes circleout {
+  0% {
+    transform: rotate(0deg) translate(-320px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(-320px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes circletext {
+  0% {
+    transform: rotate(0deg) translate(-400px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-400px) rotate(-360deg);
+  }
+}
+
+@keyframes circletext {
+  0% {
+    transform: rotate(0deg) translate(-400px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(-400px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes circleout1 {
+  0% {
+    transform: rotate(0deg) translate(320px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(320px) rotate(-360deg);
+  }
+}
+
+@keyframes circleout1 {
+  0% {
+    transform: rotate(0deg) translate(320px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(320px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes circletext1 {
+  0% {
+    transform: rotate(0deg) translate(400px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(400px) rotate(-360deg);
+  }
+}
+
+@keyframes circletext1 {
+  0% {
+    transform: rotate(0deg) translate(400px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(400px) rotate(-360deg);
+  }
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 170px;
+    top: 0px;
+  }
+  50% {
+    left: 170px;
+    top: 170px;
+  }
+  75% {
+    left: 0px;
+    top: 170px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes mymove1 {
+  0% {
+    left: 170px;
+    top: 170px;
+  }
+  25% {
+    left: 0px;
+    top: 170px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 170px;
+    top: 0px;
+  }
+  100% {
+    left: 170px;
+    top: 170px;
+  }
+}
+
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .lol1,
+    .lol2 {
+        width: 220px;
+        height: 220px;
+    }
+  
+    .circleout,
+    .circleout1,
+    .circleout2 {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .circletext,
+    .circletext1,
+    .circletext2 {
+      font-size: 12px;
+    }
+  
+    .imageshadow {
+      width: 250px;
+      height: 250px;
+    }
+
+    .imageshadow {
+        width: 179px;
+        height: 182px;
+        box-shadow: 0px 0px 2000px 20px #152c92;
+    }
+
+    @keyframes mymove {
+        0% {
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          left: 70px;
+          top: 0px;
+        }
+        50% {
+          left: 70px;
+          top: 70px;
+        }
+        75% {
+          left: 0px;
+          top: 70px;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+        }
+      }
+      
+      @keyframes mymove1 {
+        0% {
+          left: 70px;
+          top: 70px;
+        }
+        25% {
+          left: 0px;
+          top: 70px;
+        }
+        50% {
+          left: 0px;
+          top: 0px;
+        }
+        75% {
+          left: 70px;
+          top: 0px;
+        }
+        100% {
+          left: 70px;
+          top: 70px;
+        }
+      }
+
+
+      @-webkit-keyframes circleout {
+        0% {
+          transform: rotate(0deg) translate(-110px) rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg) translate(-110px) rotate(-360deg);
+        }
+      }
+      
+      @keyframes circleout {
+        0% {
+          transform: rotate(0deg) translate(-110px) rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg) translate(-110px) rotate(-360deg);
+        }
+      }
+      
+      @-webkit-keyframes circletext {
+        0% {
+          transform: rotate(0deg) translate(-120px) rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg) translate(-120px) rotate(-360deg);
+        }
+      }
+      
+      @keyframes circletext {
+        0% {
+          transform: rotate(0deg) translate(-120px) rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg) translate(-120px) rotate(-360deg);
+        }
+      }
+      
+      @-webkit-keyframes circleout1 {
+        0% {
+          transform: rotate(0deg) translate(110px) rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg) translate(110px) rotate(-360deg);
+        }
+      }
+      
+      @keyframes circleout1 {
+        0% {
+          transform: rotate(0deg) translate(110px) rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg) translate(110px) rotate(-360deg);
+        }
+      }
+      
+      @-webkit-keyframes circletext1 {
+        0% {
+          transform: rotate(0deg) translate(120px) rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg) translate(120px) rotate(-360deg);
+        }
+      }
+      
+      @keyframes circletext1 {
+        0% {
+          transform: rotate(0deg) translate(120px) rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg) translate(120px) rotate(-360deg);
+        }
+      }
+
+
+      .circleout {
+        width: 10px;
+        height: 10px;
+        background: rgb(4, 9, 99);
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 0px 5px #0736b6, 0px 0px 0px 10px #061298;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+        -webkit-animation: cicleout 20s linear infinite;
+        animation: circleout 20s linear infinite;
+      }
+
+      .circleout1 {
+        width: 10px;
+        height: 10px;
+        background: rgb(4, 9, 99);
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 0px 5px #0736b6, 0px 0px 0px 10px #061298;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+        -webkit-animation: cicleout 20s linear infinite;
+        animation: circleout 20s linear infinite;
+      }
+  }

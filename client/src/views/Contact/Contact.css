@@ -1,0 +1,135 @@
+.outer-div {
+  /* margin-bottom: 30px; */
+  background-image: url("./images/background1.jpg");
+  background-size: 100% 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+.contact-container {
+ 
+  padding: 15px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  /* Default width for larger screens */
+  /* margin: 50px auto; */
+  height: fit-content;
+  /* Default height */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+button1 {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* For medium screens (tablets, small laptops) */
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 85%;
+    /* Slightly smaller form */
+    height: fit-content;
+    /* Adjust height */
+  }
+  button1 {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .input-group input,
+  .input-group textarea {
+    font-size: 13px;
+    padding: 7px;
+  }
+}
+
+/* For small screens (mobile phones) */
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 90%;
+    /* Almost full width */
+    padding: 10px;
+    height: 500px;
+    /* Smaller height for smaller screens */
+  }
+  h2 {
+    font-size: 16px;
+    /* Smaller heading font */
+  }
+  button1 {
+    font-size: 12px;
+    /* Smaller button text */
+  }
+  .input-group input,
+  .input-group textarea {
+    font-size: 12px;
+    /* Smaller font size */
+    padding: 6px;
+    /* Reduced padding */
+  }
+}
+
+/* For extra small screens (below 360px) */
+
+@media (max-width: 360px) {
+  .contact-container {
+    width: 95%;
+    /* Nearly full width */
+    height: 320px;
+    /* Smaller height */
+  }
+  h2 {
+    font-size: 14px;
+    /* Even smaller heading */
+  }
+  button1 {
+    font-size: 11px;
+    /* Smaller button text */
+  }
+  .input-group input,
+  .input-group textarea {
+    font-size: 11px;
+    /* Smaller input text */
+    padding: 5px;
+    /* Reduced padding */
+  }
+}
