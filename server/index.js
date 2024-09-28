@@ -13,9 +13,9 @@ app.use(express.json());
 
 const __dirname = path.resolve();
 
-// app.get("/", (req, res) => {
-//   res.send("Server is working");
-// });
+app.get("/", (req, res) => {
+  res.send("Server is working");
+});
 
 import userRoutes from "./routes/user.js";
 import postRoutes from './routes/post.js'
